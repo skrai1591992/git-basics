@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Shashank_Rai">
+        <meta name="description" content="A website for yoga class registration, providing information about the benefits of yoga and a registration form for interested participants.">
+        <meta name="keywords" content="Yoga, Yoga Classes, Registration, Fitness">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yoga Classes Registration</title>
+    </head>
+    <body>
+        <header style="background-color: rgb(243, 179, 179); padding: 10px;">
+            <h1>Yoga Classes</h1>
+            <p>Welcome to our yoga classes, where you can improve your flexibility, strength, and mental well-being.</p>
+        </header>
+        <section style="background-color:   rgb(230, 201, 173); padding: 10px;">
+            <h2>Register for Yoga Classes</h2>
+            <p>Join our yoga classes and experience the benefits of regular practice.</p>
+        </section>
+        <section style="background-color: rgb(77, 81, 77); padding: 10px;">
+            <h3>Yoga Benefits</h3>
+            <ol>
+                <li>Improved Flexibility: Regular yoga practice helps increase your range of motion and flexibility.</li>
+                <li>Enhanced Strength: Yoga poses help build muscle strength and endurance.</li>
+                <li>Stress Relief: Yoga techniques promote relaxation and reduce stress levels.</li>
+                <li>Better Posture: Yoga helps improve your posture and alignment.</li>
+            </ol>       
+        </section>
+        <section style="background-color: rgb(62, 76, 228); padding: 10px;">
+            <h4>Yoga History</h4>
+            <div style="background-color: lightgray; padding: 10px; align-items: center;">
+                <ul>
+                    <li>Yoga originated in ancient India over 5,000 years ago.</li>
+                    <li>Traditional Clothing: Sarees, salwar kameez, and kurta pajamas are popular traditional attire in India.</li>
+                    <li>Music and Dance: Classical music and dance forms like Bharatanatyam, Kathak, and Odissi are an integral part of Indian culture.</li>
+                    <li>Yoga and Meditation: India is the birthplace of yoga and meditation, which are practiced worldwide for physical and mental well-being.</li>
+                </ul>
+            </div>   
+        </section>
+        <section style="background-color: rgb(62, 232, 96); padding: 10px;">
+            <h5>Yoga Classes Locations </h5>
+            <table border="1", cellspacing="0", cellpadding="10">
+                <tr>
+                    <th>Location</th>
+                    <th>Address</th>
+                </tr>
+                <tr>
+                    <td>New York City</td>
+                    <td>123 Yoga Street, New York, NY 10001</td>
+                </tr>
+                <tr>
+                    <td>Singapore</td>
+                    <td>456 Meditation Avenue, Singapore 123456</td>
+                </tr>
+                <tr>
+                    <td>London</td>
+                    <td>789 Serenity Lane, London SW1A 1AA</td>
+                </tr>
+            </table>
+        </section>
+        <section style="background-color: rgb(219, 230, 173); padding: 10px;">
+            <h6>Yoga Class Registration Form</h6>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120"><br><br> 
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                <label for="class-level">Class Level:</label>
+                <select id="class-level" name="class-level">
+                    <option value="">Select Class Level</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select><br><br>
+                <label for="order">Yoga Class:</label>
+                <select id="order" name="order">
+                    <option value="">Select a class</option>
+                    <option value="beginner">Beginner Yoga</option>
+                    <option value="intermediate">Intermediate Yoga</option>
+                    <option value="advanced">Advanced Yoga</option>
+                </select><br><br>
+                <textarea id="special-instructions" name="special-instructions" rows="4" cols="50" placeholder="Any special instructions?"></textarea><br><br>
+                <input type="submit" value="Submit" style="background-color: rgb(125, 37, 152); color: white; padding: 10px 20px; border: none; cursor: pointer;">
+            </form>
+        </section>
+        <footer style="background-color: rgb(78, 37, 68); padding: 10px;">
+            <p>&copy; 2024 Little India. All rights reserved by <span style="font-weight: bold;">Little India</span>.</p>
+        </footer>
+    </body>
+</html>
